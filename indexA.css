@@ -99,10 +99,6 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
-}
-
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
 }
@@ -597,20 +593,24 @@ a[data-lightbox]:hover img {
     color: rgba(0, 0, 0, .5);
     background: none;
 }
-
+/*****police and weight***/
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
+    font-weight:400;
     color: #575757!important;
+}
+p{
+    font-family: "helvetica";
+    font-weight:600;
+    font-size: 1.8rem;
 }
 
 .container {
@@ -633,10 +633,6 @@ a {
     font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
-}
-
-p {
-    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -783,6 +779,3 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
-
-
-
