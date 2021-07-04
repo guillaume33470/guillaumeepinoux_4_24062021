@@ -279,10 +279,6 @@ a:hover {
     padding-left: 0;
 }
 
-#bloc-1-hero h1 {
-    font-size: 32px;
-}
-
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -595,7 +591,6 @@ a[data-lightbox]:hover img {
 }
 /*****police and weight***/
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -604,8 +599,27 @@ label,
 .btn,
 a {
     font-family: "helvetica";
+    font-size:1.2rem;
     font-weight:400;
     color: #575757!important;
+}
+h1 {
+    font-size: 4.8rem;
+    font-weight:400;
+    font-family: "Open Sans";
+}
+h2{
+    font-family: "helvetica";
+    font-size: 2.4rem;
+    line-height: 1.4em;
+    font-weight:400;
+    color:#FFF!important;
+}
+h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333!important;
 }
 p{
     font-family: "helvetica";
@@ -619,10 +633,6 @@ p{
 
 .hero-bloc-text {
     font-size: 38px;
-}
-
-.hero-bloc-text-sub {
-    font-size: 36px;
 }
 
 .statement-bloc-text {
@@ -640,11 +650,6 @@ p{
     margin: auto auto auto auto;
 }
 
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
-}
-
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
@@ -659,18 +664,6 @@ p{
     margin: auto auto auto auto;
 }
 
-h2 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
-
-h3 {
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #333333!important;
-}
-
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -678,7 +671,8 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #fff!important;
+    text-align: center;
 }
 
 h4 {
@@ -729,17 +723,13 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
-    color: #F3976C!important;
-}
-
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #fff;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #000!important;
     color: #FFFFFF!important;
 }
 
