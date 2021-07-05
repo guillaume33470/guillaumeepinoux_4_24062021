@@ -39,11 +39,6 @@ a:hover {
     position: relative;
 }
 
-.bloc .container {
-    padding-left: 0;
-    padding-right: 0;
-}
-
 .bloc-lg {
     padding: 100px 50px;
 }
@@ -91,12 +86,16 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.webp");
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
 .b-parallax {
     background-attachment: fixed;
+}
+
+.d-bloc {
+    color: rgba(255, 255, 255, .7);
 }
 
 .d-bloc button:hover {
@@ -279,6 +278,10 @@ a:hover {
     padding-left: 0;
 }
 
+#bloc-1-hero h1 {
+    font-size: 32px;
+}
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -308,16 +311,17 @@ a:hover {
 }
 
 .navbar .nav {
-    padding-top: 2px;
+    display: flex;
+    margin-top: -5%;
     margin-right: -16px;
     float: right;
-    z-index: 1;
 }
 
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 1.2rem;
+    padding-right: 35%;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -391,11 +395,6 @@ nav .caret {
     margin-bottom: 20px;
 }
 
-.mg-lg {
-    margin-top: 10px;
-    margin-bottom: 40px;
-}
-
 .btn {
     margin: 0 5px 5px 0;
 }
@@ -459,26 +458,6 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
-}
-
-.scrollToTop {
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    opacity: 0;
-    z-index: 500;
-    transition: all .3s ease-in-out;
-}
-
-.scrollToTop span {
-    margin-top: 6px;
-}
-
-.showScrollTop {
-    font-size: 14px;
-    opacity: 1;
 }
 
 a[data-lightbox] {
@@ -589,42 +568,20 @@ a[data-lightbox]:hover img {
     color: rgba(0, 0, 0, .5);
     background: none;
 }
-/*****police and weight***/
+
 h1,
+h2,
 h3,
 h4,
 h5,
 h6,
+p,
 label,
 .btn,
 a {
     font-family: "helvetica";
-    font-size:1.2rem;
-    font-weight:400;
+    font-weight: 400;
     color: #575757!important;
-}
-h1 {
-    font-size: 4.8rem;
-    font-weight:400;
-    font-family: "Open Sans";
-}
-h2{
-    font-family: "helvetica";
-    font-size: 2.4rem;
-    line-height: 1.4em;
-    font-weight:400;
-    color:#FFF!important;
-}
-h3 {
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #333333!important;
-}
-p{
-    font-family: "helvetica";
-    font-weight:600;
-    font-size: 1.8rem;
 }
 
 .container {
@@ -633,6 +590,10 @@ p{
 
 .hero-bloc-text {
     font-size: 38px;
+}
+
+.hero-bloc-text-sub {
+    font-size: 36px;
 }
 
 .statement-bloc-text {
@@ -644,10 +605,24 @@ p{
     max-width: 520px;
     margin: auto auto auto auto;
 }
+.col-sm-6{
+    text-align: center;
+}
+
+p {
+    font-size: 1.4rem;
+    text-align: center;
+}
 
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    font-size:1.4rem;
+}
+
+.h1 {
+    font-size: 20px;
+    font-family: "Open Sans";
 }
 
 .cta-hero {
@@ -664,6 +639,18 @@ p{
     margin: auto auto auto auto;
 }
 
+h2 {
+    font-size: 22px;
+    line-height: 1.4em;
+}
+
+h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333!important;
+}
+
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -671,8 +658,7 @@ p{
 }
 
 h1 {
-    color: #fff!important;
-    text-align: center;
+    color: #333333!important;
 }
 
 h4 {
@@ -685,7 +671,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .portfolio-thumb {
@@ -719,22 +705,22 @@ h4 {
     background-color: #364577;
 }
 
-.tc-white {
-    color: #fff!important;
-    font-weight:700;
-}
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
 
-.btn-atomic-tangerine {
-    background: #fff;
+.tc-white {
     color: #000!important;
 }
 
-.btn-atomic-tangerine:hover {
-    background: #000!important;
+.btn-atomic-tangerine {
+    background: #000;
     color: #FFFFFF!important;
+}
+
+.btn-atomic-tangerine:hover {
+    background: #fff!important;
+    color: #000!important;
 }
 
 .ltc-white {
@@ -773,3 +759,4 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
+
