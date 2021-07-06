@@ -523,7 +523,10 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog img {
-    max-height: 90vh;
+    max-height: 60vh;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
     margin: 0 auto;
 }
 
@@ -561,13 +564,11 @@ a[data-lightbox]:hover img {
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
-    color: rgba(255, 255, 255, .9);
-    background: rgba(0, 0, 0, .5);
+    background: #fff;
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
     z-index: 1;
-    opacity: 0.4;
 }
 
 .next-lightbox {

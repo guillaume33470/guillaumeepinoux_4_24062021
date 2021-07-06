@@ -1354,8 +1354,9 @@ figure {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
+    width: 100%;
     max-width: 100%;
-    height: auto
+    height: auto;
 }
 
 .img-rounded {
