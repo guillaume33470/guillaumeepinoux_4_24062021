@@ -628,10 +628,6 @@ p{
     font-size: 1.8rem;
 }
 
-.container {
-    max-width: 1000px;
-}
-
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -664,6 +660,7 @@ p{
     max-width: 400px;
     margin: auto auto auto auto;
 }
+
 
 .med-width-whitespace {
     max-width: 800px;
@@ -704,7 +701,8 @@ h4 {
 
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .bold-link {
