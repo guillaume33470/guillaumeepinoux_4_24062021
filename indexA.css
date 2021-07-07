@@ -129,7 +129,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #333;
 }
 
 .d-bloc .a-btn:hover,
@@ -635,10 +635,6 @@ p{
     font-weight:600;
     font-size: 1.8rem;
 }
-figcaption{
-    display: flex;
-    flex-direction: column;
-}
 
 .hero-bloc-text {
     font-size: 38px;
@@ -695,7 +691,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #0e0d0d!important;
 }
 
 .portfolio-thumb {
@@ -711,7 +707,7 @@ h4 {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 .keywords{
-color:#fff;
+color:rgb(17, 15, 15);
 font-size: 1.9rem;
 text-align: center;
 margin-top: 25%;
