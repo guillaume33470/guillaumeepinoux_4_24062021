@@ -283,6 +283,10 @@ a:hover {
     margin-bottom: 0;
     z-index: 1;
 }
+img.center-block.image-resize-mode {
+    width: auto;
+    height: auto;
+}
 
 .navbar-brand {
     height: auto;
@@ -297,6 +301,9 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    width: 100%;
+    object-fit: contain;
+    height: 45px;
 }
 
 .navbar-brand img[src$=svg] {
