@@ -31,7 +31,6 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -308,7 +307,6 @@ a:hover {
 
 .navbar .nav {
     display: flex;
-    margin-top: -5%;
     margin-right: -16px;
     float: right;
 }
@@ -317,7 +315,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 1.2rem;
+    font-size: 1.9rem;
     padding-right: 35%;
 }
 
