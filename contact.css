@@ -85,10 +85,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
 
 .b-parallax {
     background-attachment: fixed;
@@ -317,6 +313,7 @@ a:hover {
     float: right;
 }
 
+
 .nav > li {
     float: left;
     margin-top: 4px;
@@ -464,6 +461,25 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+}
+.scrollToTop {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    z-index: 500;
+    transition: all .3s ease-in-out;
+}
+
+.scrollToTop span {
+    margin-top: 6px;
+}
+
+.showScrollTop {
+    font-size: 14px;
+    opacity: 1;
 }
 
 a[data-lightbox]:hover::before {
