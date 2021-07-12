@@ -789,3 +789,24 @@ text-align: center;
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
+/****css ajouter pour elements focus tab touch****/
+
+section.col-sm-6:focus-within {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+}
+a.navbar-brand:focus-within {
+    transform: scale(1.5);
+}
+li:focus-within {
+    transform: scale(1.5);
+}
+a#cta-hero:focus-within {
+    background: red;
+}
+.col-sm-3:focus-within {
+    background: white;
+}
