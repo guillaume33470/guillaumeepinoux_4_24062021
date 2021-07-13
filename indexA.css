@@ -810,3 +810,6 @@ a#cta-hero:focus-within {
 .col-sm-3:focus-within {
     background: white;
 }
+a.btn.btn-atomic-tangerine.btn-clean.btn-rd.btn-lg.cta-hero:focus-within {
+    background: red;
+}
