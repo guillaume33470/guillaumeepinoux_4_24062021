@@ -774,4 +774,16 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
-
+/****css ajouter pour elements focus tab touch****/
+a.navbar-brand:focus-within {
+    transform: scale(1.5);
+}
+li:focus-within {
+    transform: scale(1.5);
+}
+.col-sm-3:focus-within {
+    background: white;
+}
+button.bloc-button.btn.btn-lg.btn-block.cta-hero.btn-atomic-tangerine:focus-within{
+    background: red;
+}
