@@ -74,7 +74,7 @@
 		<div class="container bloc-lg">
 			<div class="row">
 				<div class="col-sm-6">
-					<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+					<form id="form_1" >
 						<div class="form-group">
 							<label for="name">
 								Nom
@@ -82,7 +82,7 @@
 							<input id="name" class="form-control" type="text" name="firstname" placeholder="Votre nom et prénom" />
 						</div>
 						<div class="form-group">
-							<label for="mail">
+							<label for="email">
 								Adresse email
 							</label>
 							<input id="email" class="form-control" type="email" name="email" placeholder="Votre email" />
@@ -91,15 +91,15 @@
 							<label for="knowthat">
 								Comment nous avez-vous connu ?
 							</label>
-							<input class="form-control" type="text" name="sujet" placeholder="internet, bouche à oreille, reseaux sociaux"/> 
+							<input id="knowthat" class="form-control" type="text" name="sujet" placeholder="internet, bouche à oreille, reseaux sociaux"/> 
 						</div>
 						<div class="form-group">
 							<label for="projet">
 								Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 							</label>
-							<textarea id="message" class="form-control" rows="4" cols="50"placeholder="racontez nous votre projet" ></textarea>
+							<textarea id="projet" class="form-control" rows="4" cols="50" placeholder="racontez nous votre projet" ></textarea>
 						</div> 
-						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" >
 							Envoyer
 						</button>
 					</form>
